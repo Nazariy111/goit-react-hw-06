@@ -22,7 +22,7 @@ const Contact = ({ contact }) => {
             </ul>
             <button
                 className={css.contactButton}
-                onClick={() => dispatch(deleteContact(contact.Id))}
+                onClick={() => dispatch(deleteContact(contact.id))}
             >Delete</button>
         </li>
     )
